@@ -1,29 +1,26 @@
 # TypeplateSass
 
-TODO: Write a gem description
+TypeplateSass is typeplate as a Rails engine.
 
 ## Installation
 
+### Rails 3 or 4
+
 Add this line to your application's Gemfile:
 
-    gem 'typeplate_sass'
+    gem 'typeplate_sass', '~> 1.1.0'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install typeplate_sass
+Restart Rails server
 
 ## Usage
 
-TODO: Write usage instructions here
+@import "typeplate"
 
-## Contributing
+## License
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+-  [Typeplate](http://typeplate.com) is licensed under Creative Commons Attribution 3.0 Unported.
+-  This project is licensed under MIT License.
