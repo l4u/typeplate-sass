@@ -1,5 +1,7 @@
 require "typeplate_sass/version"
+require "typeplate_sass/engine"
 
 module TypeplateSass
-  # Your code goes here...
+  stylesheets = File.expand_path(File.join("..", 'vendor', 'assets', 'stylesheets'))
+  Sass.load_paths << stylesheets
 end
